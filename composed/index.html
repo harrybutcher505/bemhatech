@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Composed — AI-powered job application assistant</title>
-  <meta name="description" content="Composed helps senior professionals apply smarter — AI-drafted cover letters, CV tailoring, match scoring, and LinkedIn optimisation. Free for Mac and Windows." />
+  <title>Composed — The proactive job search toolkit for senior professionals</title>
+  <meta name="description" content="Most job seekers apply to postings. Composed helps you reach out before a job exists — map 30 target companies, spot trigger events, find the decision maker, and send a short email that gets a reply." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
@@ -14,74 +14,143 @@
   <nav>
     <span class="logo">Composed</span>
     <div style="display:flex;gap:12px;align-items:center;">
+      <a href="#how-it-works" class="nav-link">How it works</a>
       <a href="#features" class="nav-link">Features</a>
       <a href="#pricing" class="nav-link">Pricing</a>
       <a href="#download" class="btn-nav">Download free →</a>
     </div>
   </nav>
 
+  <!-- HERO -->
   <section class="hero">
     <div class="badge">v1.2.9 · Mac &amp; Windows · Early Access</div>
-    <h1>Apply smarter.<br/>Land faster.</h1>
-    <p class="subtitle">Composed is an AI-powered job application assistant built for senior professionals. Tailored cover letters, CV builder, match scoring, job suggestions, and LinkedIn rewriting — all from your CV, in seconds.</p>
+    <h1>Most job seekers apply.<br/>You reach out first.</h1>
+    <p class="subtitle">Composed is the AI toolkit that runs the proactive outreach playbook for senior professionals — find the right 30 companies, spot who needs you now, reach the decision maker, and land the call before a job is posted.</p>
     <div class="hero-actions">
       <a href="#download" class="btn-primary">Download free</a>
-      <a href="#pricing" class="btn-ghost">See pricing</a>
+      <a href="#how-it-works" class="btn-ghost">See the playbook</a>
     </div>
     <p class="disclaimer">Free to download · Composed Pro €49 one-time · Your data stays on your machine</p>
   </section>
 
-  <section class="screenshot-strip">
-    <div class="screen-card">
-      <div class="screen-label">Job match score</div>
-      <div class="screen-mock">
-        <div class="score-ring">87<span>%</span></div>
-        <p>Strong match · 3 gaps identified</p>
+  <!-- SOCIAL PROOF STRIP -->
+  <section style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:20px 24px;">
+    <div style="max-width:860px;margin:0 auto;display:flex;gap:32px;justify-content:center;flex-wrap:wrap;">
+      <div style="text-align:center;">
+        <p style="font-size:22px;font-weight:800;color:var(--accent);">30</p>
+        <p style="font-size:11px;color:var(--muted);font-weight:500;">target companies mapped</p>
       </div>
-    </div>
-    <div class="screen-card">
-      <div class="screen-label">Cover letter</div>
-      <div class="screen-mock letter-mock">
-        <div class="line long"></div>
-        <div class="line med"></div>
-        <div class="line long"></div>
-        <div class="line short"></div>
-        <div class="line long"></div>
-        <div class="line med"></div>
+      <div style="text-align:center;">
+        <p style="font-size:22px;font-weight:800;color:var(--accent);">10%</p>
+        <p style="font-size:11px;color:var(--muted);font-weight:500;">reply rate is a win</p>
       </div>
-    </div>
-    <div class="screen-card">
-      <div class="screen-label">Live job suggestions</div>
-      <div class="screen-mock" style="width:100%;gap:6px;">
-        <div style="display:flex;justify-content:space-between;align-items:center;width:100%;">
-          <div style="font-size:11px;font-weight:600;">Senior PM · Amsterdam</div>
-          <span style="font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px;background:#dcfce7;color:#15803d;">82%</span>
-        </div>
-        <div style="display:flex;justify-content:space-between;align-items:center;width:100%;">
-          <div style="font-size:11px;font-weight:600;">Product Lead · Remote</div>
-          <span style="font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px;background:#fef9c3;color:#854d0e;">67%</span>
-        </div>
-        <div style="display:flex;justify-content:space-between;align-items:center;width:100%;">
-          <div style="font-size:11px;font-weight:600;">PM Manager · London</div>
-          <span style="font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px;background:#dcfce7;color:#15803d;">91%</span>
-        </div>
+      <div style="text-align:center;">
+        <p style="font-size:22px;font-weight:800;color:var(--accent);">1 call</p>
+        <p style="font-size:11px;color:var(--muted);font-weight:500;">is how it starts</p>
       </div>
-    </div>
-    <div class="screen-card">
-      <div class="screen-label">Profile Optimiser</div>
-      <div class="screen-mock">
-        <div class="tag-row">
-          <span class="tag active">LinkedIn Headline</span>
-          <span class="tag">LinkedIn About</span>
-          <span class="tag">CV Summary</span>
-          <span class="tag">Elevator Pitch</span>
-        </div>
+      <div style="text-align:center;">
+        <p style="font-size:22px;font-weight:800;color:var(--accent);">€49</p>
+        <p style="font-size:11px;color:var(--muted);font-weight:500;">once — no subscription</p>
       </div>
     </div>
   </section>
 
-  <section class="features" id="features">
-    <h2>Everything you need to compete at senior level</h2>
+  <!-- THE PLAYBOOK / HOW IT WORKS -->
+  <section id="how-it-works" style="padding:80px 24px;">
+    <div style="max-width:760px;margin:0 auto;">
+      <p style="font-size:11px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;text-align:center;">The playbook</p>
+      <h2 style="font-size:clamp(24px,3.5vw,36px);font-weight:800;letter-spacing:-1px;margin-bottom:16px;text-align:center;">The roles that matter aren't posted yet</h2>
+      <p style="font-size:15px;color:var(--muted);line-height:1.8;text-align:center;max-width:580px;margin:0 auto 60px;">The best positions go to people who showed up before the hiring process started. Composed walks you through the exact framework senior professionals use to create their own opportunities.</p>
+
+      <div style="display:flex;flex-direction:column;gap:0;">
+
+        <div style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid var(--border);">
+          <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);color:#fff;font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">1</div>
+          <div style="flex:1;">
+            <h3 style="font-size:17px;font-weight:700;margin-bottom:6px;">Define the outcomes you've created</h3>
+            <p style="font-size:14px;color:var(--muted);line-height:1.7;">Not your job titles — your results. Composed builds your story from your CV: what you built, what you moved, what changed because of you. That story is the foundation of every outreach email.</p>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 16px;font-size:12px;color:var(--muted);min-width:180px;flex-shrink:0;line-height:1.6;">
+            <strong style="color:var(--text);display:block;margin-bottom:4px;">In Composed</strong>
+            Profile → CV upload<br/>Outreach → Your story
+          </div>
+        </div>
+
+        <div style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid var(--border);">
+          <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);color:#fff;font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">2</div>
+          <div style="flex:1;">
+            <h3 style="font-size:17px;font-weight:700;margin-bottom:6px;">Build a list of 30 matches — go past the obvious</h3>
+            <p style="font-size:14px;color:var(--muted);line-height:1.7;">Composed finds 30 companies where your story fits — not just the household names. Rising stars, niche brands, funded startups. If their direction intersects with where you're heading, they're on the list.</p>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 16px;font-size:12px;color:var(--muted);min-width:180px;flex-shrink:0;line-height:1.6;">
+            <strong style="color:var(--text);display:block;margin-bottom:4px;">In Composed</strong>
+            Outreach → Discover companies<br/><span style="color:var(--accent);font-weight:600;">30 companies returned</span>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid var(--border);">
+          <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);color:#fff;font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">3</div>
+          <div style="flex:1;">
+            <h3 style="font-size:17px;font-weight:700;margin-bottom:6px;">Find who needs you now — watch the trigger events</h3>
+            <p style="font-size:14px;color:var(--muted);line-height:1.7;">Just got funding. New product launch. Entering a new market. Adopting AI. Composed flags trigger events for each company and sorts your list into Act now, Watch, and Longer term — so you spend energy where the timing is right.</p>
+          </div>
+          <div style="background:#fff8f8;border:1px solid #fecaca;border-radius:10px;padding:12px 16px;font-size:12px;min-width:180px;flex-shrink:0;line-height:1.7;">
+            <strong style="color:#dc2626;display:block;margin-bottom:6px;">Act now →</strong>
+            <span style="background:#fee2e2;color:#dc2626;font-size:9px;font-weight:700;padding:2px 7px;border-radius:99px;">Just funded</span><br/>
+            <span style="background:#fee2e2;color:#dc2626;font-size:9px;font-weight:700;padding:2px 7px;border-radius:99px;margin-top:4px;display:inline-block;">AI push</span><br/>
+            <span style="background:#fee2e2;color:#dc2626;font-size:9px;font-weight:700;padding:2px 7px;border-radius:99px;margin-top:4px;display:inline-block;">New product</span>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid var(--border);">
+          <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);color:#fff;font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">4</div>
+          <div style="flex:1;">
+            <h3 style="font-size:17px;font-weight:700;margin-bottom:6px;">Study them deeply</h3>
+            <p style="font-size:14px;color:var(--muted);line-height:1.7;">For each company, Composed surfaces what they're doing right now, the problem they're likely facing, and why your story connects to their specific challenge — not a generic pitch.</p>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 16px;font-size:12px;color:var(--muted);min-width:180px;flex-shrink:0;line-height:1.6;">
+            <strong style="color:var(--text);display:block;margin-bottom:4px;">Per company</strong>
+            Recent signal<br/>Why your story connects<br/>Their likely challenge
+          </div>
+        </div>
+
+        <div style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;border-bottom:1px solid var(--border);">
+          <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);color:#fff;font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">5</div>
+          <div style="flex:1;">
+            <h3 style="font-size:17px;font-weight:700;margin-bottom:6px;">Prepare your pitch</h3>
+            <p style="font-size:14px;color:var(--muted);line-height:1.7;">Composed drafts a personalised outreach email for every company — the problem they have, how your experience addresses it, and a low-friction ask. Not a "I'm looking for a job" message. A reason to reply.</p>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 16px;font-size:12px;color:var(--muted);min-width:180px;flex-shrink:0;line-height:1.6;">
+            <strong style="color:var(--text);display:block;margin-bottom:4px;">Auto-drafted</strong>
+            Email subject + body<br/>Personalised per company<br/>Ready to send or edit
+          </div>
+        </div>
+
+        <div style="display:flex;gap:24px;align-items:flex-start;padding:28px 0;">
+          <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);color:#fff;font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">6</div>
+          <div style="flex:1;">
+            <h3 style="font-size:17px;font-weight:700;margin-bottom:6px;">Reach the decision maker — not the recruiter</h3>
+            <p style="font-size:14px;color:var(--muted);line-height:1.7;">Composed finds the budget owner — the VP, Director, or Head of who would actually hire you. Real contacts via Hunter.io with verified emails, or LinkedIn search strings if you don't have Hunter. Track who you've contacted, who you've followed up with, who replied.</p>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 16px;font-size:12px;color:var(--muted);min-width:180px;flex-shrink:0;line-height:1.6;">
+            <strong style="color:var(--text);display:block;margin-bottom:4px;">Pipeline status</strong>
+            Not contacted<br/>Sent · Followed up<br/><span style="color:#16a34a;font-weight:600;">Replied ✓</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="margin-top:40px;background:#f0fdf4;border:1.5px solid #bbf7d0;border-radius:12px;padding:24px 28px;text-align:center;">
+        <p style="font-size:15px;font-weight:700;color:#166534;margin-bottom:6px;">A 10% reply rate is a win. One call is how it starts.</p>
+        <p style="font-size:13px;color:#15803d;line-height:1.7;">Send to all 30, prioritised by trigger events. Most won't reply. The ones that do are the relationships that lead somewhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features" style="background:var(--surface);border-top:1px solid var(--border);">
+    <h2>Everything else in the toolkit</h2>
+    <p style="text-align:center;color:var(--muted);font-size:14px;margin-top:-12px;margin-bottom:40px;">When you do apply to postings — do it better than everyone else.</p>
     <div class="feature-grid">
       <div class="feature">
         <div class="feature-icon">📄</div>
@@ -94,9 +163,14 @@
         <p>See how well your CV matches each role. Identifies gaps, suggests rewrites, and scores your letter for ATS compliance.</p>
       </div>
       <div class="feature">
+        <div class="feature-icon">💯</div>
+        <h3>Get your CV to 100</h3>
+        <p>Live score, rewrite suggestions for weak bullets, and a checklist of what's holding your CV back — with one-click apply to your CV.</p>
+      </div>
+      <div class="feature">
         <div class="feature-icon">✏️</div>
         <h3>CV tailoring &amp; builder</h3>
-        <p>Reformat your existing CV for any role, or build one from scratch. Ideal for career changers and veterans entering the civilian job market.</p>
+        <p>Reformat your existing CV for any role, or build one from scratch. Ideal for career changers and veterans entering the civilian market.</p>
       </div>
       <div class="feature">
         <div class="feature-icon">💼</div>
@@ -106,35 +180,29 @@
       <div class="feature">
         <div class="feature-icon">🔍</div>
         <h3>Live job suggestions</h3>
-        <p>Pulls live roles from multiple job boards, scores each one against your CV, and filters out jobs you've already applied for.</p>
+        <p>Pulls live roles from multiple job boards, scores each one against your CV, and filters out roles you've already applied for.</p>
       </div>
       <div class="feature">
         <div class="feature-icon">💬</div>
         <h3>Screening questions</h3>
-        <p>Paste any application form question and get a CV-backed answer with evidence. Includes salary market rate lookup for compensation questions.</p>
-      </div>
-      <div class="feature">
-        <div class="feature-icon">📬</div>
-        <h3>Contact finder</h3>
-        <p>Finds real hiring contacts at target companies and drafts a personalised outreach email — before you apply.</p>
+        <p>Paste any application form question and get a CV-backed answer with evidence. Includes salary market rate lookup.</p>
       </div>
       <div class="feature">
         <div class="feature-icon">🪖</div>
         <h3>Built for veterans too</h3>
-        <p>The CV Builder has a dedicated veteran mode — translates military experience into civilian language and builds a complete CV from scratch.</p>
+        <p>A dedicated veteran mode translates military experience into civilian language and builds a complete CV from scratch.</p>
       </div>
     </div>
   </section>
 
-  <!-- Pricing -->
-  <section id="pricing" style="padding:80px 24px;background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <!-- PRICING -->
+  <section id="pricing" style="padding:80px 24px;background:var(--bg);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
     <div style="max-width:860px;margin:0 auto;">
       <h2 style="font-size:clamp(24px,3.5vw,36px);font-weight:800;letter-spacing:-1px;margin-bottom:8px;text-align:center;">Simple, honest pricing</h2>
       <p style="text-align:center;color:var(--muted);font-size:14px;margin-bottom:48px;">Draft letters free. Buy Pro once to unlock the full toolkit — no subscription, ever.</p>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;">
 
-        <!-- Free plan -->
         <div style="background:var(--bg);border:1.5px solid var(--border);border-radius:var(--radius);padding:32px;">
           <p style="font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:12px;">Free</p>
           <p style="font-size:36px;font-weight:800;letter-spacing:-1px;margin-bottom:4px;">€0</p>
@@ -171,12 +239,11 @@
             </div>
             <div style="display:flex;gap:10px;align-items:flex-start;">
               <span style="color:#6b7280;font-weight:700;flex-shrink:0;">✗</span>
-              <p style="font-size:13px;color:var(--muted);">Proactive outreach &amp; contact finder</p>
+              <p style="font-size:13px;color:var(--muted);">30-company outreach, contact finder &amp; pipeline</p>
             </div>
           </div>
         </div>
 
-        <!-- Pro plan -->
         <div style="background:var(--bg);border:2px solid var(--accent);border-radius:var(--radius);padding:32px;position:relative;box-shadow:0 4px 24px rgba(109,86,220,0.12);">
           <div style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;font-size:11px;font-weight:700;padding:3px 14px;border-radius:99px;letter-spacing:0.5px;white-space:nowrap;">MOST POPULAR</div>
           <p style="font-size:11px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:12px;">Composed Pro</p>
@@ -190,7 +257,15 @@
             </div>
             <div style="display:flex;gap:10px;align-items:flex-start;">
               <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
-              <p style="font-size:13px;">AI cover letter drafting — tailored to every role</p>
+              <p style="font-size:13px;"><strong>30-company outreach</strong> — AI maps your list, spots trigger events, drafts emails</p>
+            </div>
+            <div style="display:flex;gap:10px;align-items:flex-start;">
+              <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
+              <p style="font-size:13px;">Contact finder — budget owners, not recruiters</p>
+            </div>
+            <div style="display:flex;gap:10px;align-items:flex-start;">
+              <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
+              <p style="font-size:13px;">Pipeline tracker — Sent / Followed up / Replied</p>
             </div>
             <div style="display:flex;gap:10px;align-items:flex-start;">
               <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
@@ -198,11 +273,7 @@
             </div>
             <div style="display:flex;gap:10px;align-items:flex-start;">
               <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
-              <p style="font-size:13px;">CV tailoring &amp; builder (reformat or build from scratch)</p>
-            </div>
-            <div style="display:flex;gap:10px;align-items:flex-start;">
-              <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
-              <p style="font-size:13px;">LinkedIn headline, About &amp; profile optimisation</p>
+              <p style="font-size:13px;">Get your CV to 100 — live score + rewrite suggestions</p>
             </div>
             <div style="display:flex;gap:10px;align-items:flex-start;">
               <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
@@ -210,15 +281,15 @@
             </div>
             <div style="display:flex;gap:10px;align-items:flex-start;">
               <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
+              <p style="font-size:13px;">LinkedIn headline, About &amp; profile optimisation</p>
+            </div>
+            <div style="display:flex;gap:10px;align-items:flex-start;">
+              <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
+              <p style="font-size:13px;">CV tailoring &amp; builder (reformat or build from scratch)</p>
+            </div>
+            <div style="display:flex;gap:10px;align-items:flex-start;">
+              <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
               <p style="font-size:13px;">Screening question answers with CV evidence</p>
-            </div>
-            <div style="display:flex;gap:10px;align-items:flex-start;">
-              <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
-              <p style="font-size:13px;">Score boost — what it takes to go from 84 → 100</p>
-            </div>
-            <div style="display:flex;gap:10px;align-items:flex-start;">
-              <span style="color:var(--accent);font-weight:700;flex-shrink:0;">✓</span>
-              <p style="font-size:13px;">Proactive outreach &amp; consultancy email drafting</p>
             </div>
           </div>
           <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border);">
@@ -228,7 +299,6 @@
 
       </div>
 
-      <!-- Return user discount -->
       <div style="margin-top:24px;padding:20px 24px;background:var(--bg);border:1.5px solid #fde68a;border-radius:var(--radius);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;">
         <div>
           <p style="font-size:13px;font-weight:700;margin-bottom:3px;">Coming back for your next job search?</p>
@@ -237,7 +307,6 @@
         <a href="mailto:harrybutcher@hotmail.com?subject=Composed returning user discount" style="font-size:12px;font-weight:600;color:#92400e;background:#fef9c3;border:1.5px solid #fde68a;padding:8px 16px;border-radius:8px;text-decoration:none;white-space:nowrap;flex-shrink:0;">Get discount →</a>
       </div>
 
-      <!-- Reassurance chips -->
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px;">
         <div style="text-align:center;padding:20px;background:var(--bg);border-radius:var(--radius);border:1px solid var(--border);">
           <p style="font-size:20px;margin-bottom:6px;">🔒</p>
@@ -258,33 +327,7 @@
     </div>
   </section>
 
-  <section class="how" id="how">
-    <h2>How it works</h2>
-    <div class="steps">
-      <div class="step">
-        <div class="step-num">1</div>
-        <div>
-          <h3>Download and set up</h3>
-          <p>Download Composed free, upload your CV (DOCX, PDF, or TXT), and enter your Composed Pro licence key to unlock AI features. Everything runs locally.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div>
-          <h3>Paste a job</h3>
-          <p>Drop in a job URL or paste the description directly. Composed analyses the role and matches it against your profile.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div>
-          <h3>Apply with confidence</h3>
-          <p>Get a tailored letter, CV tips, gap analysis, and a match score. Export, refine, and submit — in minutes.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <!-- DOWNLOAD -->
   <section class="download" id="download">
     <h2>Download Composed</h2>
     <p>Free · Mac &amp; Windows · Requires an Anthropic API key</p>
@@ -325,7 +368,7 @@
       </div>
       <a href="https://github.com/harrybutcher505/composed-app/releases/latest/download/Composed_1.2.8_x64-setup.exe" class="btn-primary">Download</a>
     </div>
-    <!-- Install guide -->
+
     <div style="max-width:520px;margin:28px auto 0;text-align:left;">
       <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:14px;">How to install</p>
 
@@ -341,7 +384,7 @@
         <div style="width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">2</div>
         <div>
           <p style="font-size:13px;font-weight:600;margin-bottom:2px;">Install</p>
-          <p style="font-size:12px;color:var(--muted);line-height:1.6;"><strong>Mac:</strong> Unzip the file → drag <strong>Composed.app</strong> to your Applications folder → right-click it and choose <strong>Open</strong> the first time (macOS security step — you only need to do this once).<br/><strong>Windows:</strong> Run <strong>Composed_setup.exe</strong> → click through the installer → launch from your Start menu or Desktop.</p>
+          <p style="font-size:12px;color:var(--muted);line-height:1.6;"><strong>Mac:</strong> Unzip → drag <strong>Composed.app</strong> to Applications → right-click and choose <strong>Open</strong> the first time.<br/><strong>Windows:</strong> Run <strong>Composed_setup.exe</strong> → click through the installer → launch from Start menu.</p>
         </div>
       </div>
 
@@ -349,30 +392,31 @@
         <div style="width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">3</div>
         <div>
           <p style="font-size:13px;font-weight:600;margin-bottom:2px;">Get your Anthropic API key</p>
-          <p style="font-size:12px;color:var(--muted);line-height:1.6;">Composed uses Claude AI to draft your letters and analyse jobs. You'll need a free API key from <a href="https://console.anthropic.com" target="_blank" style="color:var(--accent);">console.anthropic.com</a> — takes 2 minutes. Add it in Composed under <strong>Profile</strong>.</p>
+          <p style="font-size:12px;color:var(--muted);line-height:1.6;">Composed uses Claude AI. You'll need a free API key from <a href="https://console.anthropic.com" target="_blank" style="color:var(--accent);">console.anthropic.com</a> — takes 2 minutes. Add it in Composed under <strong>Profile</strong>.</p>
         </div>
       </div>
 
       <div style="display:flex;gap:12px;margin-bottom:20px;align-items:flex-start;">
         <div style="width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">4</div>
         <div>
-          <p style="font-size:13px;font-weight:600;margin-bottom:2px;">Upload your CV and start applying</p>
-          <p style="font-size:12px;color:var(--muted);line-height:1.6;">Go to <strong>Profile</strong> → upload your CV (PDF, DOCX, or TXT) → save. Then head to <strong>Apply</strong>, paste a job URL, and hit Analyse.</p>
+          <p style="font-size:13px;font-weight:600;margin-bottom:2px;">Upload your CV and start</p>
+          <p style="font-size:12px;color:var(--muted);line-height:1.6;">Go to <strong>Profile</strong> → upload your CV (PDF, DOCX, or TXT). Then go to <strong>Outreach</strong> to run the 30-company playbook, or <strong>Apply</strong> to draft a letter for a specific role.</p>
         </div>
       </div>
 
       <div style="background:#fef9c3;border:1px solid #fde68a;border-radius:10px;padding:12px 16px;">
-        <p style="font-size:12px;color:#92400e;line-height:1.6;">📱 <strong>Desktop only</strong> — Composed is a Mac and Windows desktop application. It does not run on iPhone, iPad, Android, or in a web browser. Your CV and API key stay on your own machine and are never uploaded to any server.</p>
+        <p style="font-size:12px;color:#92400e;line-height:1.6;">📱 <strong>Desktop only</strong> — Composed is a Mac and Windows desktop application. It does not run in a browser. Your CV and API key stay on your own machine and are never uploaded to any server.</p>
       </div>
     </div>
   </section>
 
+  <!-- MAKER -->
   <section class="maker">
     <div class="maker-inner">
       <div>
         <p class="maker-label">Built by</p>
         <h3>Harry Butcher</h3>
-        <p>Senior Product Manager with 10+ years building telematics, fleet intelligence, and logistics SaaS products across the Netherlands, UK, and Middle East. Composed started as a personal tool — built it because the job market needed something smarter than a template.</p>
+        <p>Senior Product Manager with 10+ years building telematics, fleet intelligence, and logistics SaaS products across the Netherlands, UK, and Middle East. Composed started as a personal tool — built because the job market needed something smarter than a template, and because the proactive outreach approach is what actually works at senior level.</p>
         <a href="https://www.linkedin.com/in/harry-butcher" target="_blank" class="btn-ghost-sm">LinkedIn →</a>
       </div>
     </div>
@@ -380,8 +424,13 @@
 
   <footer>
     <span class="logo">Composed</span>
-    <span>© 2026 Harry Butcher · Early access</span>
-    <a href="mailto:harrybutcher@hotmail.com?subject=Composed Feedback" class="footer-feedback">Send feedback</a>
+    <span>© 2026 Bemhatech · Early access</span>
+    <div style="display:flex;gap:16px;align-items:center;">
+      <a href="/composed/privacy.html" style="font-size:12px;color:var(--muted);text-decoration:none;">Privacy</a>
+      <a href="/composed/terms.html" style="font-size:12px;color:var(--muted);text-decoration:none;">Terms</a>
+      <a href="/composed/refund.html" style="font-size:12px;color:var(--muted);text-decoration:none;">Refunds</a>
+      <a href="mailto:harrybutcher@hotmail.com?subject=Composed Feedback" class="footer-feedback">Send feedback</a>
+    </div>
   </footer>
 
 </body>
