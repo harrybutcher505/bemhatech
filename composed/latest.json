@@ -4,11 +4,11 @@
   "pub_date": "2026-07-11T10:20:27Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.25/Composed_1.3.25_universal.app.tar.gz",
+      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.25/Composed.app.tar.gz",
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ3ZFTjcrekkvYi9BMGJrQXhHVjVzVmJOMCtFSDhyZHdCTkt0cWtreVZXSXZWOTZtYUI2em42NkQ4Mk9McHhyWmE2Y1BnRVROMllrbnNiTTJ2VzAzakFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzY0NTU5CWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negpqNmZPaE8yVTBkWW5KL2lxNUh1cyszeXAzV051Rkd1dll5S3NWYVBYTVk0ZnR0Z2QzaisyaVN4dmkxQmhNVmd0ekUrcS9wNS96Y2J4Yzg4OUgwSytDUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.25/Composed_1.3.25_universal.app.tar.gz",
+      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.25/Composed.app.tar.gz",
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ3ZFTjcrekkvYi9BMGJrQXhHVjVzVmJOMCtFSDhyZHdCTkt0cWtreVZXSXZWOTZtYUI2em42NkQ4Mk9McHhyWmE2Y1BnRVROMllrbnNiTTJ2VzAzakFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzY0NTU5CWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negpqNmZPaE8yVTBkWW5KL2lxNUh1cyszeXAzV051Rkd1dll5S3NWYVBYTVk0ZnR0Z2QzaisyaVN4dmkxQmhNVmd0ekUrcS9wNS96Y2J4Yzg4OUgwSytDUT09Cg=="
     },
     "windows-x86_64": {
