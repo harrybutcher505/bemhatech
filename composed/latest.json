@@ -1,19 +1,19 @@
 {
-  "version": "1.3.23",
-  "notes": "Composed 1.3.23",
-  "pub_date": "2026-07-11T05:29:15Z",
+  "version": "1.3.24",
+  "notes": "Composed 1.3.24",
+  "pub_date": "2026-07-11T05:45:43Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.23/Composed_1.3.23_universal.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ2xYNXVBaU4wYmFpUjdoNkM0TEZCRnpZamE5MzFHWjNzOUJTV3B3TDhBYnFSMEd1azYzVnU2OVBrRjZoYkhxSEYraTJ0NVNrWTlGenRFYzZ3YXdxK3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzQ3MDU0CWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negphWHVLQ1FDZzhMRnFiQUxlMEtSL0c0MmJ5M2JTbEM1MjNsaXlqYW1ibWp1UXZwbGNBTjVOMVE4R3h0T2Z3eC9EYUZ3TzA1Y216NlJlTzVUdDRYLzhEQT09Cg=="
+      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.24/Composed_1.3.24_universal.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ3FsRXZwTFlvTFNxdWdjZHRoS0RPakNxQnRkQ2loUkZSeVJpUXdydUx1V2hXUFY5cm1DOFhvZ0FXOWd2dnRZQzdoNVBHOU4rQ1pEMVF4V1RaNDZ3QXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzQ4MjgwCWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negp3cENKYnpnYldkNmpoNzErdWlJZTZFL0I2UVArdGFTNWRJbi9vY3k1dGNFK01PZnE4QStGckpEck9mQjZxcFZBN0hKcHZDVXBoU1lQRHRGN1crcmNDdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.23/Composed_1.3.23_universal.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ2xYNXVBaU4wYmFpUjdoNkM0TEZCRnpZamE5MzFHWjNzOUJTV3B3TDhBYnFSMEd1azYzVnU2OVBrRjZoYkhxSEYraTJ0NVNrWTlGenRFYzZ3YXdxK3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzQ3MDU0CWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negphWHVLQ1FDZzhMRnFiQUxlMEtSL0c0MmJ5M2JTbEM1MjNsaXlqYW1ibWp1UXZwbGNBTjVOMVE4R3h0T2Z3eC9EYUZ3TzA1Y216NlJlTzVUdDRYLzhEQT09Cg=="
+      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.24/Composed_1.3.24_universal.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ3FsRXZwTFlvTFNxdWdjZHRoS0RPakNxQnRkQ2loUkZSeVJpUXdydUx1V2hXUFY5cm1DOFhvZ0FXOWd2dnRZQzdoNVBHOU4rQ1pEMVF4V1RaNDZ3QXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzQ4MjgwCWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negp3cENKYnpnYldkNmpoNzErdWlJZTZFL0I2UVArdGFTNWRJbi9vY3k1dGNFK01PZnE4QStGckpEck9mQjZxcFZBN0hKcHZDVXBoU1lQRHRGN1crcmNDdz09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.23/Composed_1.3.23_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ2h6c2M4dlFiN3hmRmpQM0lsbEs0ZlFtbkN1Zi9YSUxzNkJmeTY5SlgxUFdRSnMxWXVtd1dGVngvNUtiVGhyMHRQR0FsRXhaTWkweGQ1NXhJZERLMFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzQ3NzM0CWZpbGU6Q29tcG9zZWRfMS4zLjIzX3g2NC1zZXR1cC5leGUKYnJzOFI0TjkxS05ZWGovNTloNUh4UmprNEhPMXgwUDJkMW5FQWJwWHJySVZqZjNMZjVtVUVDNXFEcnZwb3pMa3NpUWdRTGtNUnJEVUF4dU1OaFR6REE9PQo="
+      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.24/Composed_1.3.24_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ3VFdG1abWlrOTNkbnpIcUpCVVRyUm1jZ2k1RDRlTGpCbldDb2c5SWQxN2FET1d1VkoybmlGQjhWdWFWUUxZbkNucytYbkd6bVJMdGlsQk1Ua1ZsdWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzQ4NzIzCWZpbGU6Q29tcG9zZWRfMS4zLjI0X3g2NC1zZXR1cC5leGUKSXp0NEcxTHRjTkNCSjQ5MUcyd0tCNU9ZSkZqT3lKK3pXTUdZUGVldzRHbHYzVlFaVnh6cXNkN1M4S0x6YUUyVWc0ejQ2TXNOdys1dGVTbXNhMWZqQmc9PQo="
     }
   }
 }
