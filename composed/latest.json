@@ -1,19 +1,19 @@
 {
-  "version": "1.3.37",
-  "notes": "Composed 1.3.37",
-  "pub_date": "2026-07-15T10:01:20Z",
+  "version": "1.3.35",
+  "notes": "Composed 1.3.35",
+  "pub_date": "2026-07-16T08:25:20Z",
   "platforms": {
     "darwin-aarch64": {
       "url": "https://bemhatech.nl/composed/Composed.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ3FQc0JZUE02dkV4YVBlUFhLelBzZWxRWm0xVUlTUHVvaVJ5NkxGbEFFOUUrRlZoSy84TlUwZDVDR3VHeEw4enJ3cXdxZmFHTlZ3NlBHak9JRDVtaWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTA4OTc4CWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negprRHZWQllaeEkwU0RTM2NmcVZVWnh6Yi9lNGVBVVZrN3JVYkdzOEJURjJvWE9iQXdlWExab08vSjBON2lld1gyRTVlOFdOU2t2WWVMVVczaUFOcXFEZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ2xEbDRYbUd3SE9jWXRQSGh2dm5SSmc3MmtiZTg5SnNLMW95cjVxUGNtaDgxelZ2Q1dCSDdXUjA3UWphUGVldm5QQjMzSzYra3dOU01qYisxSVhzY2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTg5NzgxCWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negpyYTdieFRPaTJEeEJyUk5IaldYRzRZcGtPZVBCbHNFVkdnTjluQU5MenlITXVXT0hvUVlndTNDRUNzSGUwT0MyK3JBWEtoN2QxVnpuWEVadm9PYWZDZz09Cg=="
     },
     "darwin-x86_64": {
       "url": "https://bemhatech.nl/composed/Composed.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ3FQc0JZUE02dkV4YVBlUFhLelBzZWxRWm0xVUlTUHVvaVJ5NkxGbEFFOUUrRlZoSy84TlUwZDVDR3VHeEw4enJ3cXdxZmFHTlZ3NlBHak9JRDVtaWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTA4OTc4CWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negprRHZWQllaeEkwU0RTM2NmcVZVWnh6Yi9lNGVBVVZrN3JVYkdzOEJURjJvWE9iQXdlWExab08vSjBON2lld1gyRTVlOFdOU2t2WWVMVVczaUFOcXFEZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ2xEbDRYbUd3SE9jWXRQSGh2dm5SSmc3MmtiZTg5SnNLMW95cjVxUGNtaDgxelZ2Q1dCSDdXUjA3UWphUGVldm5QQjMzSzYra3dOU01qYisxSVhzY2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTg5NzgxCWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negpyYTdieFRPaTJEeEJyUk5IaldYRzRZcGtPZVBCbHNFVkdnTjluQU5MenlITXVXT0hvUVlndTNDRUNzSGUwT0MyK3JBWEtoN2QxVnpuWEVadm9PYWZDZz09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://bemhatech.nl/composed/Composed_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ2hCQzlUZ2tlT2JIaGU5VWlxNUJDRlZnM3FrR1JpYXMrcWw3MjV2czEzcStYSCtJTkh1bURzL0lmTllGcmV0L1hEN2FvTkpzVGZMRWNrb3NDaDJUZFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTA5NjQ5CWZpbGU6Q29tcG9zZWRfMS4zLjM3X3g2NC1zZXR1cC5leGUKRVV6S24xRnRGVzBwK0s0SHYrdzBETkkzUW1Md3Yya2xIa2U0d1JLUGlpUUQzWER3bUtFNXRmRXJWYnorY0pwMzZWM21NWUFwK1BCbm5LemFzOUdQQXc9PQo="
+      "url": "https://github.com/harrybutcher505/composed-app/releases/download/v1.3.35/Composed_1.3.35_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ24rVW5NaVAxK0hJVmFwM1hOeVBObUgvWXJZOGpFVkErN05ZWUZzWmoxbmh1dzNHM3VSZGYyRWZsbTVIbVM2cHI0YkJrbS85Mzc2S21RZ3BTZW9tR0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTkwMjk5CWZpbGU6Q29tcG9zZWRfMS4zLjM1X3g2NC1zZXR1cC5leGUKMzA0amxpZWVIVTRoUUJsUmgrVlNpK05QTTc1VTZQaXM1RFJ4cWtwNzdPcWovTmJYdFJ5MW5IQ3hhR0tacFdRVnBXRk1SS2VpWDZGbTNXWnJsb0UrREE9PQo="
     }
   }
 }
