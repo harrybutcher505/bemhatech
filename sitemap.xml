@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://bemhatech.nl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bemhatech.nl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bemhatech.nl/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bemhatech.nl/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bemhatech.nl/"/>
+  </url>
+  <url>
+    <loc>https://bemhatech.nl/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bemhatech.nl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bemhatech.nl/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bemhatech.nl/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bemhatech.nl/"/>
+  </url>
+  <url>
+    <loc>https://bemhatech.nl/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bemhatech.nl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bemhatech.nl/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bemhatech.nl/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bemhatech.nl/"/>
+  </url>
+</urlset>

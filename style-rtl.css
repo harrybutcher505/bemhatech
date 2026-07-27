@@ -1,0 +1,26 @@
+/* RTL overrides for Arabic, loaded after style.css on the /ar/ page only. */
+
+.about-photo-frame::before { left: auto; right: -6px; border-right: 2px solid var(--highlight); border-left: none; }
+.about-photo-frame::after { right: auto; left: -6px; border-left: 2px solid var(--highlight); border-right: none; }
+
+.arc { text-align: right; }
+
+.about-inner p.usp {
+  border-left: none;
+  border-right: 3px solid var(--highlight);
+  text-align: right;
+}
+
+.skills-wrap { text-align: right; }
+
+.skills-col li {
+  padding-left: 0;
+  padding-right: 18px;
+}
+
+.skills-col li::before {
+  left: auto;
+  right: 0;
+}
+
+.track-card p b { margin-right: 0; margin-left: 4px; }
