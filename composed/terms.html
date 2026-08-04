@@ -37,8 +37,12 @@
     <p>Your Composed Pro licence key is issued to you personally. You may not share, sell, or transfer it. We reserve the right to revoke keys that are shared or misused.</p>
 
     <h2>4. AI features and data</h2>
-    <p>Composed Pro requires your own Anthropic API key to use AI features. All processing happens on your machine. We do not store, transmit, or have access to your CV, cover letters, job data, or API key.</p>
-    <p>Your use of Anthropic's services is governed by Anthropic's own Terms of Service. We are not responsible for the output of AI-generated content.</p>
+    <p>When you use AI features, your CV text, cover letter, and job description are transmitted to Anthropic's Claude API to generate responses. The routing depends on your access method:</p>
+    <ul>
+      <li><strong>Own API key:</strong> Requests go directly from the app to Anthropic. Bemhatech does not receive or store your CV or API key.</li>
+      <li><strong>Pilot code:</strong> Requests are routed through <code>proxy.bemhatech.nl</code>, a server operated by Bemhatech in Amsterdam. The proxy validates your credit allowance and forwards the request to Anthropic. Your CV text passes through the proxy in transit and is not stored there.</li>
+    </ul>
+    <p>Your application files (CV, letters, history) are stored on your own machine and are not uploaded to Bemhatech. Your use of Anthropic's services is governed by Anthropic's own Terms of Service. We are not responsible for the output of AI-generated content.</p>
 
     <h2>5. Acceptable use</h2>
     <p>You may not use Composed to:</p>

@@ -80,11 +80,16 @@
     </ul>
     <p>These files are yours. You can back them up, inspect them, or delete them at any time. They survive app updates. Your licence key is also stored locally and is never uploaded to Bemhatech.</p>
     <div class="highlight">
-      <p>Bemhatech has no access to your CV, letters, job data, or API key. We receive only your licence status from Paddle when you activate a Pro licence.</p>
+      <p>Your application files — CV, letters, history — are stored on your machine and are not uploaded to Bemhatech as files. If you use a pilot code, your CV text passes through a Bemhatech-operated server (proxy.bemhatech.nl, Amsterdam) on each AI request before being forwarded to Anthropic. It is not stored there. If you use your own Anthropic API key, requests go directly to Anthropic and Bemhatech receives nothing.</p>
     </div>
 
     <h2>Your data — what is sent externally</h2>
-    <p>When you use AI features (Extract Job, Match CV, Draft Letter, Improve, Refresh, Outreach drafts), your CV text and letter are sent to the <strong>Anthropic Claude API</strong> to generate responses. This is a standard HTTPS request — your content is processed in transit and is not stored on Anthropic's servers under your identity. See <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic's privacy policy</a>.</p>
+    <p>When you use AI features (Extract Job, Match CV, Draft Letter, Improve, Refresh, Outreach drafts), your CV text and letter are transmitted to generate the AI response. The path depends on your access method:</p>
+    <ul>
+      <li><strong>Pilot code users:</strong> requests go via <code>proxy.bemhatech.nl</code> (Bemhatech, Amsterdam) → Anthropic Claude API. The proxy records aggregate token counts for credit-cap enforcement only.</li>
+      <li><strong>Own API key users:</strong> requests go directly to the <strong>Anthropic Claude API</strong>.</li>
+    </ul>
+    <p>In both cases, your content is processed in transit and is not stored on Anthropic's servers under your identity. See <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic's privacy policy</a>.</p>
     <p>Other external calls:</p>
     <ul>
       <li><strong>Paddle</strong> — licence key validation on launch</li>
