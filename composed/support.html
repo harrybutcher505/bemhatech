@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Composed</title>
+  <meta name="description" content="Support policy, known limitations, data handling, and contact information for Composed." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .legal { max-width: 720px; margin: 0 auto; padding: 64px 24px; }
+    .legal h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px; }
+    .legal .meta { color: var(--muted); font-size: 13px; margin-bottom: 48px; }
+    .legal h2 { font-size: 18px; font-weight: 700; margin: 36px 0 12px; }
+    .legal p, .legal li { font-size: 14px; line-height: 1.8; color: var(--text); margin-bottom: 12px; }
+    .legal ul { padding-left: 20px; }
+    .legal a { color: var(--accent); }
+    .callout { background: var(--surface); border: 1.5px solid var(--border); border-radius: 10px; padding: 18px 22px; margin: 20px 0; }
+    .callout p { margin-bottom: 0; }
+    .highlight { background: #f0fdf4; border: 1.5px solid #bbf7d0; border-radius: 10px; padding: 18px 22px; margin: 20px 0; }
+    .highlight p { margin-bottom: 0; color: #166534; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/composed/" class="logo">Composed</a>
+    <div style="display:flex;gap:16px;align-items:center;">
+      <a href="/composed/" style="font-size:13px;color:var(--muted);text-decoration:none;">← Back to Composed</a>
+    </div>
+  </nav>
+
+  <div class="legal">
+    <h1>Support</h1>
+    <p class="meta">Last updated: 4 August 2026 · Composed v1.3.88</p>
+
+    <h2>Product stage</h2>
+    <p>Composed is in commercial beta. Core features — cover letter drafting, CV tailoring, ATS scoring, proactive outreach, and the application pipeline — are stable and in active daily use. Some features are still in development (localisation for African markets, institutional pilot mode). Beta means the app is fully usable but you may occasionally encounter rough edges; we fix known issues in regular updates.</p>
+
+    <h2>Supported platforms</h2>
+    <ul>
+      <li><strong>macOS 12 (Monterey) or later</strong> — Apple Silicon and Intel (universal build)</li>
+      <li><strong>Windows 10 / 11 (64-bit)</strong></li>
+    </ul>
+    <p>iOS, Android, and browser access are not currently supported. Composed is a native desktop application — your data stays on your machine.</p>
+
+    <h2>Automatic updates</h2>
+    <p>Composed checks for updates when you open the app and installs them automatically. Updates are cryptographically signed — only official releases will install. The version number is shown at the bottom of the sidebar inside the app.</p>
+    <p>If an update fails to install, download the latest version directly from this page and run the installer — your data and settings are stored separately and will not be affected.</p>
+
+    <h2>Known limitations</h2>
+    <ul>
+      <li><strong>LinkedIn job pages</strong> cannot be scraped automatically due to LinkedIn's terms of service. Use Paste mode — copy the job description text and paste it into Composed.</li>
+      <li><strong>Salary data</strong> is indicative and sourced from Adzuna's public API. It reflects advertised salaries and may not match your market or role level exactly.</li>
+      <li><strong>AI quality</strong> depends on the detail in your CV and job description. The more specific your profile, the more targeted the output. Very long CVs (over ~5,000 words) may be partially truncated in some prompts.</li>
+      <li><strong>Contact finder</strong> requires a Hunter.io API key (free tier available). Without a key, Composed provides a LinkedIn search string instead.</li>
+      <li><strong>Internet connection required</strong> for all AI features, job search, salary lookup, and contact finding. CV editing and history browsing work offline.</li>
+    </ul>
+
+    <h2>Reporting an issue or sending feedback</h2>
+    <div class="callout">
+      <p>Email <a href="mailto:support@bemhatech.nl">support@bemhatech.nl</a> with:</p>
+    </div>
+    <ul>
+      <li>A short description of what you expected and what happened instead</li>
+      <li>Your OS version (e.g. macOS 15.2 or Windows 11)</li>
+      <li>The Composed version number (shown at the bottom of the sidebar)</li>
+    </ul>
+    <p>We aim to respond within 3 working days. Bug fixes are released as minor updates as soon as they are tested.</p>
+    <p>You can also use the <strong>Feedback</strong> button inside the Composed sidebar — it opens a pre-addressed email with your version number included.</p>
+
+    <h2>Continuity</h2>
+    <p>Composed is a founder-led product operated by Harry Butcher (Netherlands). If the founder is unavailable, the support inbox at <a href="mailto:support@bemhatech.nl">support@bemhatech.nl</a> is monitored by a designated deputy. We will provide at least 30 days' notice if the product is ever to be discontinued.</p>
+
+    <h2>Your data — what is stored locally</h2>
+    <p>Everything you put into Composed is stored as files on your Desktop:</p>
+    <ul>
+      <li><code>~/Desktop/job-apply-profile.json</code> — your name, CV, tone preference, API keys</li>
+      <li><code>~/Desktop/job-apply-history/</code> — one file per application: job info, tailored CV, letter, match score</li>
+      <li><code>~/Desktop/job-apply-outreach.json</code> — your outreach pipeline</li>
+    </ul>
+    <p>These files are yours. You can back them up, inspect them, or delete them at any time. They survive app updates. Your licence key is also stored locally and is never uploaded to Bemhatech.</p>
+    <div class="highlight">
+      <p>Bemhatech has no access to your CV, letters, job data, or API key. We receive only your licence status from Paddle when you activate a Pro licence.</p>
+    </div>
+
+    <h2>Your data — what is sent externally</h2>
+    <p>When you use AI features (Extract Job, Match CV, Draft Letter, Improve, Refresh, Outreach drafts), your CV text and letter are sent to the <strong>Anthropic Claude API</strong> to generate responses. This is a standard HTTPS request — your content is processed in transit and is not stored on Anthropic's servers under your identity. See <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic's privacy policy</a>.</p>
+    <p>Other external calls:</p>
+    <ul>
+      <li><strong>Paddle</strong> — licence key validation on launch</li>
+      <li><strong>Careerjet, Jobicy, Adzuna</strong> — job title and location for vacancy and salary search</li>
+      <li><strong>Hunter.io</strong> — company name for contact finding (requires your own Hunter API key)</li>
+      <li><strong>Brave Search</strong> — company research queries (requires your own Brave API key)</li>
+    </ul>
+    <p>No analytics, crash reporting, or usage tracking is collected. See the full <a href="/composed/privacy.html">Privacy Policy</a> for details.</p>
+
+    <h2>Changelog</h2>
+    <p>Every release is documented. The version number and release notes are shown in the <strong>Updates</strong> section of the Composed sidebar. A full changelog is maintained in the app's GitHub repository.</p>
+
+    <h2>Contact</h2>
+    <p>Support: <a href="mailto:support@bemhatech.nl">support@bemhatech.nl</a><br/>
+    Feedback: <a href="mailto:harrybutcher@hotmail.com">harrybutcher@hotmail.com</a><br/>
+    Data / privacy requests: <a href="mailto:harrybutcher@hotmail.com">harrybutcher@hotmail.com</a></p>
+  </div>
+
+  <footer>
+    <span class="logo">Composed</span>
+    <span>© 2026 Bemhatech</span>
+    <div style="display:flex;gap:16px;align-items:center;">
+      <a href="/composed/privacy.html" style="font-size:12px;color:var(--muted);text-decoration:none;">Privacy</a>
+      <a href="/composed/terms.html" style="font-size:12px;color:var(--muted);text-decoration:none;">Terms</a>
+      <a href="/composed/refund.html" style="font-size:12px;color:var(--muted);text-decoration:none;">Refunds</a>
+      <a href="/composed/support.html" style="font-size:12px;color:var(--muted);text-decoration:none;">Support</a>
+    </div>
+  </footer>
+</body>
+</html>

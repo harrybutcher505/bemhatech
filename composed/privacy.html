@@ -26,38 +26,50 @@
     <p class="meta">Last updated: 30 June 2026</p>
 
     <h2>1. Overview</h2>
-    <p>Composed is a desktop application. Your CV, cover letters, job data, API keys, and application history are stored locally on your own machine and are never transmitted to us. We have no access to this data.</p>
+    <p>Composed is a native desktop application. Your CV, cover letters, job data, and application history are stored as files on your own machine. Bemhatech does not have access to this data. When you use AI features, your CV text and letter are sent to the Anthropic API to generate responses — this is described in full in section 4 below.</p>
 
-    <h2>2. Data we collect</h2>
-    <p>We collect minimal data:</p>
+    <h2>2. Data Bemhatech collects</h2>
+    <p>Bemhatech collects minimal data:</p>
     <ul>
       <li><strong>Purchase data:</strong> When you buy Composed Pro via Paddle, Paddle processes your payment and shares your email address and name with us solely to deliver your licence key. We do not store payment card details.</li>
-      <li><strong>Support emails:</strong> If you contact us by email, we retain that correspondence.</li>
-      <li><strong>Website analytics:</strong> Our website may collect anonymised usage data (page views) via Netlify's built-in analytics. No personal data is collected.</li>
+      <li><strong>Licence status:</strong> Your licence key is validated against the Paddle API on app launch. We receive a pass/fail status only.</li>
+      <li><strong>Support correspondence:</strong> If you contact us by email, we retain that correspondence for up to 2 years.</li>
+      <li><strong>Website analytics:</strong> Our website may collect anonymised page-view data via Netlify's built-in analytics. No personal data is collected.</li>
     </ul>
 
-    <h2>3. Data we do NOT collect</h2>
+    <h2>3. Data stored locally on your machine</h2>
+    <p>All application data is stored as files on your Desktop:</p>
     <ul>
-      <li>Your CV or resume</li>
-      <li>Your cover letters or application history</li>
-      <li>Your Anthropic API key</li>
-      <li>Any data entered into the Composed app</li>
+      <li><code>~/Desktop/job-apply-profile.json</code> — name, CV text, tone preference, API key (if provided), licence key</li>
+      <li><code>~/Desktop/job-apply-history/</code> — per-application files: job description, tailored CV, letter, match score</li>
+      <li><code>~/Desktop/job-apply-outreach.json</code> — outreach pipeline entries</li>
     </ul>
+    <p>These files are yours. Bemhatech cannot access them. They survive app updates and can be deleted at any time by removing the files.</p>
 
-    <h2>4. Third-party services</h2>
+    <h2>4. Data sent to third-party services</h2>
+    <p><strong>Anthropic Claude API:</strong> When you use AI features (Extract Job, Match CV, Draft Letter, Improve, Refresh profile, Outreach drafting), your CV text, cover letter, and job description are sent to the Anthropic API in the body of a standard HTTPS request. This data is processed by Anthropic to generate the AI response. It is not stored on Anthropic's servers under your identity, and Anthropic does not use API request content to train its models by default. Your use of the Anthropic API is subject to <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic's Privacy Policy</a>.</p>
+    <p>Other third-party services:</p>
     <ul>
-      <li><strong>Paddle:</strong> Handles payment processing. Subject to Paddle's Privacy Policy.</li>
-      <li><strong>Anthropic:</strong> Processes AI requests using your own API key. Subject to Anthropic's Privacy Policy.</li>
+      <li><strong>Paddle:</strong> Licence key validation. Subject to <a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener">Paddle's Privacy Policy</a>.</li>
+      <li><strong>Careerjet, Jobicy, Adzuna:</strong> Job title and location are sent when you search for vacancies or salary data. No personal data is shared.</li>
+      <li><strong>Hunter.io:</strong> Company name is sent for contact finding, if you have configured a Hunter API key. Subject to Hunter's Privacy Policy.</li>
+      <li><strong>Brave Search:</strong> A company research query is sent when you use company research, if you have configured a Brave API key.</li>
     </ul>
+    <p>No analytics, crash reporting, or usage tracking is transmitted from the Composed app to any service.</p>
 
-    <h2>5. Your rights (GDPR)</h2>
-    <p>If you are in the EU, you have the right to access, correct, or delete any personal data we hold about you (limited to purchase and support data). Contact us at <a href="mailto:harrybutcher@hotmail.com">harrybutcher@hotmail.com</a> to exercise these rights.</p>
+    <h2>5. Your Anthropic API key</h2>
+    <p>If you provide your own Anthropic API key, it is stored in <code>job-apply-profile.json</code> on your Desktop and used only as the authorisation header for API requests to Anthropic. It is never sent to Bemhatech. During the beta period, Bemhatech covers AI costs and a personal key is not required.</p>
 
-    <h2>6. Data retention</h2>
-    <p>Purchase records are retained for as long as required by Dutch tax law (7 years). Support correspondence is retained for 2 years.</p>
+    <h2>6. Your rights (GDPR)</h2>
+    <p>If you are in the EU or EEA, you have the right to access, correct, or delete the personal data Bemhatech holds about you (limited to purchase records and support correspondence). To exercise these rights, email <a href="mailto:harrybutcher@hotmail.com">harrybutcher@hotmail.com</a>. We will respond within 30 days.</p>
 
-    <h2>7. Contact</h2>
-    <p>Data controller: Harry Butcher, Netherlands. Email: <a href="mailto:harrybutcher@hotmail.com">harrybutcher@hotmail.com</a></p>
+    <h2>7. Data retention</h2>
+    <p>Purchase records are retained for as long as required by Dutch tax law (7 years). Support correspondence is retained for 2 years. Licence validation logs are not retained beyond the session.</p>
+
+    <h2>8. Contact</h2>
+    <p>Data controller: Harry Butcher, Netherlands.<br/>
+    Email: <a href="mailto:harrybutcher@hotmail.com">harrybutcher@hotmail.com</a><br/>
+    Support: <a href="mailto:support@bemhatech.nl">support@bemhatech.nl</a></p>
   </div>
 </body>
 </html>
