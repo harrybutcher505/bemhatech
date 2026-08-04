@@ -11,15 +11,15 @@ Before finishing any edit that touches one of these facts, grep the repo for the
 
 | Fact | Current value |
 |------|--------------|
-| App version | **1.3.98** |
-| Version string on website | `v1.3.98` |
+| App version | **1.3.93** (last published GitHub release) |
+| Version string on website | `v1.3.93` |
 | Mac download filename | `Composed-mac.zip` (no version in filename — uses `releases/latest`) |
-| Windows download filename | `Composed_1.3.98_x64-setup.exe` |
+| Windows download filename | `Composed_1.3.93_x64-setup.exe` |
 | `latest.json` endpoint | `https://bemhatech.nl/composed/latest.json` |
 
 **Appears in:** `composed/index.html` (hero badge, two download cards), `composed/privacy.html` (meta line — must be updated manually), Windows filename.  
 **Grep pattern when updating:** `v1\.3\.[0-9]`  
-**Known stale instances as of 2026-08-04:** privacy.html meta line showed `v1.3.88` — check it was fixed.
+**Note:** App code is at 1.3.98 locally but 1.3.93 is the last published GitHub release. Website shows the published release version. Update website only when a CI build publishes a new release.
 
 ---
 
