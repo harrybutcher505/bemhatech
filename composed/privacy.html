@@ -23,10 +23,10 @@
 
   <div class="legal">
     <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: 30 June 2026</p>
+    <p class="meta">Last updated: 4 August 2026</p>
 
     <h2>1. Overview</h2>
-    <p>Composed is a native desktop application. Your CV, cover letters, job data, and application history are stored as files on your own machine. Bemhatech does not have access to this data. When you use AI features, your CV text and letter are sent to the Anthropic API to generate responses — this is described in full in section 4 below.</p>
+    <p>Composed is a native desktop application. Your CV, cover letters, job data, and application history are stored as files on your own machine. When you use AI features, your CV text and letter are transmitted to generate AI responses — the routing depends on whether you are using a pilot code or your own API key, and is described in full in section 4 below.</p>
 
     <h2>2. Data Bemhatech collects</h2>
     <p>Bemhatech collects minimal data:</p>
@@ -47,7 +47,12 @@
     <p>These files are yours. Bemhatech cannot access them. They survive app updates and can be deleted at any time by removing the files.</p>
 
     <h2>4. Data sent to third-party services</h2>
-    <p><strong>Anthropic Claude API:</strong> When you use AI features (Extract Job, Match CV, Draft Letter, Improve, Refresh profile, Outreach drafting), your CV text, cover letter, and job description are sent to the Anthropic API in the body of a standard HTTPS request. This data is processed by Anthropic to generate the AI response. It is not stored on Anthropic's servers under your identity, and Anthropic does not use API request content to train its models by default. Your use of the Anthropic API is subject to <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic's Privacy Policy</a>.</p>
+    <p><strong>Anthropic Claude API:</strong> When you use AI features (Extract Job, Match CV, Draft Letter, Improve, Refresh profile, Outreach drafting), your CV text, cover letter, and job description are transmitted to generate the AI response. The routing depends on how you are authenticated:</p>
+    <ul>
+      <li><strong>Pilot code users:</strong> Requests are routed through <code>proxy.bemhatech.nl</code>, a server operated by Bemhatech in Amsterdam, Netherlands (TransIP VPS). The proxy validates your pilot code, records aggregate token usage for credit-cap enforcement, and forwards the request to the Anthropic API. Your CV text is transmitted in transit through this server and is not stored there beyond the duration of the request.</li>
+      <li><strong>Own API key users:</strong> Requests go directly from the app to the Anthropic API. Nothing passes through Bemhatech infrastructure.</li>
+    </ul>
+    <p>In both cases, the request is processed by Anthropic to generate the AI response. The CV data is not stored on Anthropic's servers under your identity, and Anthropic does not use API request content to train its models by default. Your use of the Anthropic API is subject to <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic's Privacy Policy</a>.</p>
     <p>Other third-party services:</p>
     <ul>
       <li><strong>Paddle:</strong> Licence key validation. Subject to <a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener">Paddle's Privacy Policy</a>.</li>
@@ -57,8 +62,9 @@
     </ul>
     <p>No analytics, crash reporting, or usage tracking is transmitted from the Composed app to any service.</p>
 
-    <h2>5. Your Anthropic API key</h2>
-    <p>If you provide your own Anthropic API key, it is stored in <code>job-apply-profile.json</code> on your Desktop and used only as the authorisation header for API requests to Anthropic. It is never sent to Bemhatech. During the beta period, Bemhatech covers AI costs and a personal key is not required.</p>
+    <h2>5. Your Anthropic API key and pilot code</h2>
+    <p>If you provide your own Anthropic API key, it is stored in <code>job-apply-profile.json</code> on your Desktop and used only as the authorisation header for direct API requests to Anthropic. It is never sent to Bemhatech.</p>
+    <p>If you use a pilot code, the code is stored in <code>job-apply-profile.json</code> on your Desktop and sent to <code>proxy.bemhatech.nl</code> with each AI request to validate your credit allowance. The pilot code is not an Anthropic API key and does not give access to your Anthropic account.</p>
 
     <h2>6. Your rights (GDPR)</h2>
     <p>If you are in the EU or EEA, you have the right to access, correct, or delete the personal data Bemhatech holds about you (limited to purchase records and support correspondence). To exercise these rights, email <a href="mailto:harrybutcher@hotmail.com">harrybutcher@hotmail.com</a>. We will respond within 30 days.</p>
