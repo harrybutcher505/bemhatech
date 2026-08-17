@@ -1,19 +1,19 @@
 {
-  "version": "1.4.10",
-  "notes": "Composed 1.4.10",
-  "pub_date": "2026-08-11T06:44:50Z",
+  "version": "1.4.11",
+  "notes": "Composed 1.4.11",
+  "pub_date": "2026-08-17T17:15:47Z",
   "platforms": {
     "darwin-aarch64": {
       "url": "https://bemhatech.nl/composed/Composed.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ203VXljWmxPci9BSXNGWnB6dkFWeE44TCtSRXJvZ2JQOGYwbzJBQzlRd21MTWwraU5WNThYNTl5Mk1jNzMwclczZ3FwNjU5bUdhSnZHZUxEd25BT0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDMwMjg1CWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negpiYUo2b3BEekpBKzBUQXBTZndHQnhkMmpTbGtUNit5OG8xckc4bDJVMzdpdmJSdnpaL09HS2N0dTA1VHdqd1plbW1oeW9XUDByajhtdm56anhNNDFBZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ3NiOEtXU1dHbnNnS0dFdUgzZlUzVmNaMnRHcEMxT2hiQjBRQXVaU2VWWTJlY2FBMkRqZkhsYXlCUmxlKzFXWkFJVEwwM2d5UnVkYys3ZmxVbjhGcXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTg1NzkwCWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negpsc0hKWE4xRHVXQlJsdXVnenJJYVRtSFhabWZZNlpPNzQ2Wk9kRmhiZHpFc2k0d3N1Z3NwZFNwWWFNY09iNGVuZkExZTZRcXFVTFFYdjFnT3RVbUNBQT09Cg=="
     },
     "darwin-x86_64": {
       "url": "https://bemhatech.nl/composed/Composed.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ203VXljWmxPci9BSXNGWnB6dkFWeE44TCtSRXJvZ2JQOGYwbzJBQzlRd21MTWwraU5WNThYNTl5Mk1jNzMwclczZ3FwNjU5bUdhSnZHZUxEd25BT0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDMwMjg1CWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negpiYUo2b3BEekpBKzBUQXBTZndHQnhkMmpTbGtUNit5OG8xckc4bDJVMzdpdmJSdnpaL09HS2N0dTA1VHdqd1plbW1oeW9XUDByajhtdm56anhNNDFBZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ3NiOEtXU1dHbnNnS0dFdUgzZlUzVmNaMnRHcEMxT2hiQjBRQXVaU2VWWTJlY2FBMkRqZkhsYXlCUmxlKzFXWkFJVEwwM2d5UnVkYys3ZmxVbjhGcXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTg1NzkwCWZpbGU6Q29tcG9zZWQuYXBwLnRhci5negpsc0hKWE4xRHVXQlJsdXVnenJJYVRtSFhabWZZNlpPNzQ2Wk9kRmhiZHpFc2k0d3N1Z3NwZFNwWWFNY09iNGVuZkExZTZRcXFVTFFYdjFnT3RVbUNBQT09Cg=="
     },
     "windows-x86_64": {
       "url": "https://bemhatech.nl/composed/Composed_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ2h0d2hzV2QrWWdDcjRzQXFrVExhSk1XU0xLa21oZWsySFNYV09KVXdwV1R2MURtc3pGdEkvUytkUXcwSGcwNXZkTUUvOUlFKzJCWUR5bTAyNGw5Znc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDMwNjY3CWZpbGU6Q29tcG9zZWRfMS40LjEwX3g2NC1zZXR1cC5leGUKWVdxYmtZUkVpVlZUMXlMZFBxQklBamNqMWhYMS9Td0ZMa1o0aGdldS9tem5tVVlVZ0xIbFc2SnVaZGVNa28wc1lvSUc4RXFMTGo5OXlyV0hjbXczRFE9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSendiUjNNMkNQQ2xIQjhjYzc2V1doL1BoVFFKVW5CS1J0VVRwcmZtWERraGJmRXJQNjc3VVQ3bHJ5eko0ZmdWL2lmUkJocVZxTE9aOGZkMmlyUFZsT0h6alQ3NE9TU0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTg2MzkzCWZpbGU6Q29tcG9zZWRfMS40LjExX3g2NC1zZXR1cC5leGUKNnJCSCtvbloyaTBML00xNlZGcWhZY01MaEVCU0t3dlhKOUx6YWFVQWJLbFlRbXFDZFluZ2tJMTdOdVptdFFLYTJYOTRraVI3ajY4ZVZaN0d4cWxHRHc9PQo="
     }
   }
 }
