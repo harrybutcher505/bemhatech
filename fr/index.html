@@ -219,8 +219,6 @@
       <div class="about-photo-frame">
         <img class="about-photo" src="../assets/harry-butcher.jpg" alt="Harry Butcher, fondateur de Bemhatech" width="140" height="140" />
       </div>
-      <button id="bio-play-btn" class="bio-play-btn" type="button">▶ Écouter la présentation</button>
-      <audio id="bio-audio" src="../assets/harry-bio.mp3" preload="none"></audio>
       <h2>Conçu sobrement.<br/>Livré rapidement. Ça fonctionne.</h2>
       <p>Je suis Harry Butcher, fondateur de Bemhatech. Ma carrière s'est construite en trois étapes, chacune s'appuyant sur la précédente.</p>
     </div>
@@ -310,21 +308,5 @@
     </div>
   </footer>
 
-  <script>
-    const bioBtn = document.getElementById('bio-play-btn');
-    const bioAudio = document.getElementById('bio-audio');
-    bioBtn.addEventListener('click', () => {
-      if (bioAudio.paused) {
-        bioAudio.play();
-        bioBtn.textContent = '⏸ Mettre en pause';
-      } else {
-        bioAudio.pause();
-        bioBtn.textContent = '▶ Écouter la présentation';
-      }
-    });
-    bioAudio.addEventListener('ended', () => {
-      bioBtn.textContent = '▶ Écouter la présentation';
-    });
-  </script>
 </body>
 </html>

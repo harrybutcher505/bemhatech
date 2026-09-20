@@ -220,8 +220,6 @@
       <div class="about-photo-frame">
         <img class="about-photo" src="../assets/harry-butcher.jpg" alt="هاري بوتشر، مؤسس Bemhatech" width="140" height="140" />
       </div>
-      <button id="bio-play-btn" class="bio-play-btn" type="button">▶ تشغيل المقدمة</button>
-      <audio id="bio-audio" src="../assets/harry-bio.mp3" preload="none"></audio>
       <h2>بُني بكفاءة.<br/>سُلّم بسرعة. يعمل بشكل جيد.</h2>
       <p>أنا هاري بوتشر، مؤسس Bemhatech. تطورت مسيرتي المهنية على ثلاث مراحل، كل مرحلة مبنية على سابقتها.</p>
     </div>
@@ -311,21 +309,5 @@
     </div>
   </footer>
 
-  <script>
-    const bioBtn = document.getElementById('bio-play-btn');
-    const bioAudio = document.getElementById('bio-audio');
-    bioBtn.addEventListener('click', () => {
-      if (bioAudio.paused) {
-        bioAudio.play();
-        bioBtn.textContent = '⏸ إيقاف المقدمة مؤقتًا';
-      } else {
-        bioAudio.pause();
-        bioBtn.textContent = '▶ تشغيل المقدمة';
-      }
-    });
-    bioAudio.addEventListener('ended', () => {
-      bioBtn.textContent = '▶ تشغيل المقدمة';
-    });
-  </script>
 </body>
 </html>
