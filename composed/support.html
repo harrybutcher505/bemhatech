@@ -31,10 +31,10 @@
 
   <div class="legal">
     <h1>Support</h1>
-    <p class="meta">Last updated: 4 August 2026 · Composed v1.3.88</p>
+    <p class="meta">Last updated: 26 November 2026 · Composed v1.4.23</p>
 
     <h2>Product stage</h2>
-    <p>Composed is in commercial beta. Core features — cover letter drafting, CV tailoring, ATS scoring, proactive outreach, and the application pipeline — are stable and in active daily use. Some features are still in development (localisation for African markets, institutional pilot mode). Beta means the app is fully usable but you may occasionally encounter rough edges; we fix known issues in regular updates.</p>
+    <p>Composed is a free early beta. The app is usable, but you may find rough edges. Please tell us about them. You need your own Anthropic API key, and Anthropic charges you for what you use.</p>
 
     <h2>Supported platforms</h2>
     <ul>
@@ -44,7 +44,7 @@
     <p>iOS, Android, and browser access are not currently supported. Composed is a native desktop application — your data stays on your machine.</p>
 
     <h2>Automatic updates</h2>
-    <p>Composed checks for updates when you open the app and installs them automatically. Updates are cryptographically signed — only official releases will install. The version number is shown at the bottom of the sidebar inside the app.</p>
+    <p>Composed checks for updates when you open the app and asks before installing one. Updates are cryptographically signed — only official releases will install. The version number is shown at the bottom of the sidebar inside the app.</p>
     <p>If an update fails to install, download the latest version directly from this page and run the installer — your data and settings are stored separately and will not be affected.</p>
 
     <h2>Known limitations</h2>
@@ -52,13 +52,13 @@
       <li><strong>LinkedIn job pages</strong> cannot be scraped automatically due to LinkedIn's terms of service. Use Paste mode — copy the job description text and paste it into Composed.</li>
       <li><strong>Salary data</strong> is indicative and sourced from Adzuna's public API. It reflects advertised salaries and may not match your market or role level exactly.</li>
       <li><strong>AI quality</strong> depends on the detail in your CV and job description. The more specific your profile, the more targeted the output. Very long CVs (over ~5,000 words) may be partially truncated in some prompts.</li>
-      <li><strong>Contact finder</strong> requires a Hunter.io API key (free tier available). Without a key, Composed provides a LinkedIn search string instead.</li>
-      <li><strong>Internet connection required</strong> for all AI features, job search, salary lookup, and contact finding. CV editing and history browsing work offline.</li>
+      <li><strong>Unsigned installers:</strong> macOS and Windows show a security warning the first time. The steps to continue are on the <a href="/composed/#download">download section</a>.</li>
+      <li><strong>Internet connection required</strong> for all AI features, job search and salary lookup. CV editing and history browsing work offline.</li>
     </ul>
 
     <h2>Reporting an issue or sending feedback</h2>
     <div class="callout">
-      <p>Email <a href="mailto:support@bemhatech.nl">support@bemhatech.nl</a> with:</p>
+      <p>Email <a href="mailto:harry@bemhatech.nl">harry@bemhatech.nl</a> with:</p>
     </div>
     <ul>
       <li>A short description of what you expected and what happened instead</li>
@@ -69,48 +69,38 @@
     <p>You can also use the <strong>Feedback</strong> button inside the Composed sidebar — it opens a pre-addressed email with your version number included.</p>
 
     <h2>Continuity</h2>
-    <p>Composed is a founder-led product operated by Harry Butcher (Netherlands). If the founder is unavailable, the support inbox at <a href="mailto:support@bemhatech.nl">support@bemhatech.nl</a> is monitored by a designated deputy. We will provide at least 30 days' notice if the product is ever to be discontinued.</p>
+    <p>Composed is a founder-led product run by Harry Butcher (Netherlands). We will give at least 30 days' notice before discontinuing it.</p>
 
     <h2>Your data — what is stored locally</h2>
-    <p>Everything you put into Composed is stored as files on your Desktop:</p>
+    <p>Everything you put into Composed is stored on your own computer, in the app's data folder:</p>
     <ul>
-      <li><code>~/Desktop/job-apply-profile.json</code> — your name, CV, tone preference, API keys</li>
-      <li><code>~/Desktop/job-apply-history/</code> — one file per application: job info, tailored CV, letter, match score</li>
-      <li><code>~/Desktop/job-apply-outreach.json</code> — your outreach pipeline</li>
+      <li><strong>Mac:</strong> <code>~/Library/Application Support/com.harrybutcher.composed/</code></li>
+      <li><strong>Windows:</strong> <code>%APPDATA%\com.harrybutcher.composed\</code></li>
     </ul>
-    <p>These files are yours. You can back them up, inspect them, or delete them at any time. They survive app updates. Your licence key is also stored locally and is never uploaded to Bemhatech.</p>
-    <div class="highlight">
-      <p>Your application files — CV, letters, history — are stored on your machine and are not uploaded to Bemhatech as files. If you use a pilot code, your CV text passes through a Bemhatech-operated server (proxy.bemhatech.nl, Amsterdam) on each AI request before being forwarded to Anthropic. It is not stored there. If you use your own Anthropic API key, requests go directly to Anthropic and Bemhatech receives nothing.</p>
-    </div>
+    <p>The folder holds your profile (name, CV text, stories, preferences and any API keys you add), your application history and drafts, and your outreach pipeline. Composed keeps a daily backup of your profile for seven days. Versions before 1.4.23 stored these files on your Desktop; the app moves them to the new folder.</p>
+    <p>These files are yours. You can back them up, inspect them or delete them. They are not uploaded to Bemhatech.</p>
 
     <h2>Your data — what is sent externally</h2>
-    <p>When you use AI features (Extract Job, Match CV, Draft Letter, Improve, Refresh, Outreach drafts), your CV text and letter are transmitted to generate the AI response. The path depends on your access method:</p>
+    <p><strong>Anthropic Claude API:</strong> When you use AI features (for example reading a job posting, matching and tailoring your CV, drafting letters and outreach, story interviews and interview preparation), the relevant text, including your CV and the job description, is sent to Anthropic. Requests go directly from the app to Anthropic using <strong>your own API key</strong>. They do not pass through any Bemhatech server. Your use is subject to Anthropic's terms and <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">privacy policy</a>.</p>
+    <p>Other services the app contacts:</p>
     <ul>
-      <li><strong>Pilot code users:</strong> requests go via <code>proxy.bemhatech.nl</code> (Bemhatech, Amsterdam) → Anthropic Claude API. The proxy records aggregate token counts for credit-cap enforcement only.</li>
-      <li><strong>Own API key users:</strong> requests go directly to the <strong>Anthropic Claude API</strong>.</li>
+      <li><strong>Job boards</strong> (only those you have switched on): Adzuna (using your own Adzuna keys, for jobs and salary figures) and Workable receive job titles and locations; Jobicy receives locations; RemoteOK and Arbeitnow are asked for their latest listings. For Gulf and African locations, Careerjet and Bayt receive job titles and locations. Your name and CV are not sent to job boards.</li>
+      <li><strong>Job links you paste:</strong> the app opens that web page to read the posting.</li>
+      <li><strong>Updates:</strong> the app checks bemhatech.nl for a new version.</li>
     </ul>
-    <p>In both cases, your content is processed in transit and is not stored on Anthropic's servers under your identity. See <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic's privacy policy</a>.</p>
-    <p>Other external calls:</p>
-    <ul>
-      <li><strong>Paddle</strong> — validation of previously issued licence keys on launch</li>
-      <li><strong>Careerjet, Jobicy, Adzuna</strong> — job title and location for vacancy and salary search</li>
-      <li><strong>Hunter.io</strong> — company name for contact finding (requires your own Hunter API key)</li>
-      <li><strong>Brave Search</strong> — company research queries (requires your own Brave API key)</li>
-    </ul>
-    <p>No analytics, crash reporting, or usage tracking is collected. See the full <a href="/composed/privacy.html">Privacy Policy</a> for details.</p>
+    <p>As with any web request, these services can see your IP address. The Composed app sends no analytics, crash reports or usage tracking.</p>
+    <p>See the full <a href="/composed/privacy.html">Privacy Policy</a>.</p>
 
     <h2>Changelog</h2>
     <p>Every release is documented. The version number and release notes are shown in the <strong>Updates</strong> section of the Composed sidebar. A full changelog is maintained in the app's GitHub repository.</p>
 
     <h2>Contact</h2>
-    <p>Support: <a href="mailto:support@bemhatech.nl">support@bemhatech.nl</a><br/>
-    Feedback: <a href="mailto:harrybutcher@hotmail.com">harrybutcher@hotmail.com</a><br/>
-    Data / privacy requests: <a href="mailto:harrybutcher@hotmail.com">harrybutcher@hotmail.com</a></p>
+    <p>Support, feedback and privacy requests: <a href="mailto:harry@bemhatech.nl">harry@bemhatech.nl</a></p>
   </div>
 
   <footer>
     <span class="logo">Composed</span>
-    <span>© 2026 Bemhatech</span>
+    <span>© 2026 Bemhatech · KVK 42228701 · VAT NL003016810B53</span>
     <div style="display:flex;gap:16px;align-items:center;">
       <a href="/composed/privacy.html" style="font-size:12px;color:var(--muted);text-decoration:none;">Privacy</a>
       <a href="/composed/terms.html" style="font-size:12px;color:var(--muted);text-decoration:none;">Terms</a>
