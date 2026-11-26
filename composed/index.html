@@ -209,18 +209,16 @@
 
     <div style="background:#fef9c3;border:1.5px solid #fde68a;border-radius:12px;padding:16px 18px;margin-bottom:20px;font-size:12px;color:#78350f;line-height:1.75;max-width:500px;margin-left:auto;margin-right:auto;">
       <p style="font-weight:700;font-size:13px;margin-bottom:8px;">🍎 Mac users — read this first</p>
-      <p style="margin-bottom:6px;">macOS will block Composed the first time because it's not yet in the App Store. Here's how to open it:</p>
+      <p style="margin-bottom:6px;">macOS blocks Composed the first time, because it isn't yet registered with Apple. To open it:</p>
       <ol style="padding-left:18px;margin:0;display:flex;flex-direction:column;gap:4px;">
-        <li><strong>Right-click</strong> Composed.app → choose <strong>Open</strong></li>
-        <li>A dialog appears — click <strong>Open</strong> again to confirm</li>
+        <li>Unzip the download and drag <strong>Composed</strong> into your <strong>Applications</strong> folder</li>
+        <li>Open Composed. When macOS says it can't verify it, click <strong>Done</strong> (not Move to Bin)</li>
+        <li>Open <strong>System Settings → Privacy &amp; Security</strong> and scroll down</li>
+        <li>Next to <em>"Composed was blocked"</em>, click <strong>Open Anyway</strong> and enter your Mac password</li>
+        <li>Click <strong>Open Anyway</strong> once more if asked</li>
       </ol>
-      <p style="margin-top:8px;">If you see <em>"Composed cannot be opened"</em> with no Open option:</p>
-      <ol style="padding-left:18px;margin:0;display:flex;flex-direction:column;gap:4px;">
-        <li>Go to <strong>System Settings → Privacy &amp; Security</strong></li>
-        <li>Scroll down — you'll see <em>"Composed was blocked"</em></li>
-        <li>Click <strong>Allow Anyway</strong>, then try opening Composed again</li>
-      </ol>
-      <p style="margin-top:8px;opacity:0.75;">This is a standard macOS step for apps outside the App Store. You only need to do it once.</p>
+      <p style="margin-top:8px;">On macOS 14 or earlier you can instead right-click Composed and choose <strong>Open</strong>.</p>
+      <p style="margin-top:8px;opacity:0.75;">You only need to do this once. If it still won't open, email <a href="mailto:harry@bemhatech.nl" style="color:inherit;">harry@bemhatech.nl</a>.</p>
     </div>
 
     <div class="download-card">
@@ -259,7 +257,7 @@
         <div style="width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">2</div>
         <div>
           <p style="font-size:13px;font-weight:600;margin-bottom:2px;">Install</p>
-          <p style="font-size:12px;color:var(--muted);line-height:1.6;"><strong>Mac:</strong> Unzip → drag <strong>Composed.app</strong> to Applications → right-click and choose <strong>Open</strong> the first time.<br/><strong>Windows:</strong> Run <strong>Composed_x64-setup.exe</strong>. If Windows SmartScreen says "Windows protected your PC", click <strong>More info → Run anyway</strong> (the installer isn't code-signed yet). Then launch Composed from the Start menu.</p>
+          <p style="font-size:12px;color:var(--muted);line-height:1.6;"><strong>Mac:</strong> Unzip → drag <strong>Composed.app</strong> to Applications → follow <em>Mac users — read this first</em> above.<br/><strong>Windows:</strong> Run <strong>Composed_x64-setup.exe</strong>. If Windows SmartScreen says "Windows protected your PC", click <strong>More info → Run anyway</strong> (the installer isn't code-signed yet). Then launch Composed from the Start menu.</p>
         </div>
       </div>
 
@@ -267,7 +265,7 @@
         <div style="width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">3</div>
         <div>
           <p style="font-size:13px;font-weight:600;margin-bottom:2px;">Get your Anthropic API key</p>
-          <p style="font-size:12px;color:var(--muted);line-height:1.6;">Composed uses Claude AI. Create an API key at <a href="https://console.anthropic.com" target="_blank" style="color:var(--accent);">console.anthropic.com</a> (takes about 2 minutes). Creating the key is free; Anthropic charges for what you use, so add a little credit. Add it in Composed under <strong>Profile</strong>.</p>
+          <p style="font-size:12px;color:var(--muted);line-height:1.6;">Composed uses Claude AI. Create an API key at <a href="https://console.anthropic.com" target="_blank" style="color:var(--accent);">console.anthropic.com</a> (takes about 2 minutes). Creating the key is free; Anthropic charges for what you use, so add a little credit. Paste it into Composed during setup.</p>
         </div>
       </div>
 
@@ -275,7 +273,7 @@
         <div style="width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;">4</div>
         <div>
           <p style="font-size:13px;font-weight:600;margin-bottom:2px;">Upload your CV and start</p>
-          <p style="font-size:12px;color:var(--muted);line-height:1.6;">Go to <strong>Profile</strong> → upload your CV (PDF, DOCX, or TXT). Then go to <strong>Outreach</strong> to find your 10 target companies, or <strong>Apply</strong> to draft a letter for a specific role.</p>
+          <p style="font-size:12px;color:var(--muted);line-height:1.6;">Setup asks for your CV (PDF, DOCX or TXT). Then use <strong>Apply</strong> to draft a letter for a specific role, or <strong>Outreach</strong> to approach companies directly.</p>
         </div>
       </div>
 
